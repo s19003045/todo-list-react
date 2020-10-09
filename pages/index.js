@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Article from './blog/article'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Article />
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
